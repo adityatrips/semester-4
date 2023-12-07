@@ -226,15 +226,3 @@
     2. Improved maintainability: Encapsulation and data hiding make code easier to understand and modify.
     3. Flexibility and extensibility: Inheritance and polymorphism enable flexible code structures and dynamic behavior.
     4. Real-world representation: Objects map directly to real-world entities, making the code more intuitive and understandable.
-
-```
-
-```
-
-```
-
-```
-
-```
-
-```
