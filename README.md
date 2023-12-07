@@ -54,17 +54,17 @@
 
         - if-else: Evaluates a condition and executes different code blocks based on the result.
             - ```
-              if (<condition>) {
-                  // do something
-              } else {
+                if (<condition>) {
+                    // do something
+                } else {
                     // do something else
                 }
               ```
         - else-if: Allows for checking multiple conditions sequentially.
             - ```
-              if (<condition>) {
-                  // do something
-              } else if (<condition>) {
+                if (<condition>) {
+                    // do something
+                } else if (<condition>) {
                     // do something else
                 } else {
                     // do the last thing
@@ -73,9 +73,9 @@
         - switch: Evaluates a variable against multiple values and executes code based on the match.
 
             - ```
-              switch (<condition>) {
-                  case 1:
-                      // something one
+                switch (<condition>) {
+                    case 1:
+                        // something one
                         break;
                     case 2:
                         // something two
@@ -95,32 +95,31 @@
         - ?: (ternary operator) provides a concise way to write simple if-else statements.
             - ```
               <condition> ? doIfTrue() : doIfFalse();
-              `
               ```
 
 2. Looping Statements:
 
     - while: Repeatedly executes a block of code as long as a condition is true.
         - ```
-          while (<condition>) {
-              // loop until <condition> is false
-          }
+            while (<condition>) {
+                // loop until <condition> is false
+            }
           ```
     - do-while: Similar to while but guarantees the code block executes at least once.
 
         - ```
-          do {
-              // do this until condition is false
-              // this is done at least once, irrespective of the <condition>
+            do {
+                // do this until condition is false
+                // this is done at least once, irrespective of the <condition>
             } while (<condition>);
           ```
 
     - for: Repeats a block of code a specific number of times or iterates through a collection.
 
         - ```
-          for (<initializer>; <condition>; <increment/decrement>) {
-              // do something
-          }
+            for (<initializer>; <condition>; <increment/decrement>) {
+                // do something
+            }
           ```
 
 3. Jump Statements:
@@ -128,9 +127,9 @@
     - break: Exits a loop prematurely.
 
         - ```
-          for (int i = 1; i <= 5; i++) {
-              if (i == 3) {break;}
-              System.Out.println(i);
+            for (int i = 1; i <= 5; i++) {
+                if (i == 3) {break;}
+                System.Out.println(i);
             }
           ```
         - Output: `12`
@@ -141,7 +140,7 @@
             for (int i = 1; i <= 5; i++) {
                 if (i == 3) {break;}
                 System.Out.println(i);
-                }
+            }
           ```
 
         - Output: `1245`
@@ -177,13 +176,13 @@
         - Cannot access or modify object state unless provided as a parameter.
 
 -   ```
-        <acces modifier> <return type> <identifier> (<argument(s)>) {
-            <body>
-        }
+    <acces modifier> <return type> <identifier> (<argument(s)>) {
+        <body>
+    }
 
-        public void printHello(void) {
-            System.Out.println("Hello")
-        }
+    public void printHello(void) {
+        System.Out.println("Hello")
+    }
     ```
 
 -   Benefits of Using Functions
